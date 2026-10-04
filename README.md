@@ -1,5 +1,4 @@
-````markdown
-#  Hand Gesture Control Car
+# Hand Gesture Control Car
 
 A wireless robotic car controlled using **hand gestures**.
 
@@ -25,6 +24,8 @@ The MPU6050 detects the orientation and movement of the user's hand. The transmi
 The command is then transmitted wirelessly through Bluetooth to another HC-05 module connected to the receiver Arduino.
 
 The receiver Arduino interprets the received command and controls the motor driver, which drives the DC motors of the robotic car.
+
+---
 
 ### Overall Flow
 
@@ -59,8 +60,6 @@ DC Motors
      ▼
 Robotic Car
 ````
-
----
 
 #  Features
 
@@ -1006,5 +1005,4 @@ DC Motors
 Gesture-Controlled Car
 ```
 
----
 
